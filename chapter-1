@@ -1,3 +1,25 @@
 QUESTIONS CHAPTER 1 (Reliable,Scalable and Maintainable Applications ) 
+
 What are some of the ways human errors can be reduced in software systems?
 How about approaches to curb systematic errors?
+
+SCALABILITY
+If a system grows in a particular way, what are the options for coping  with the load?(LPE)
+How can you add computing resources to handle the load?(LPE)
+
+SCALABILITY - Describing Load
+TO discuss growth questions, we need to SUCCINCTLY describe the current load on the system. 
+Load is described with load parameters.
+From the architecture of your system, what will you choose as your load parameters?
+eg. of load parameters are: 
+a. requests per second to a web server, 
+b. the ratio or  reads to writes in a database, 
+c. the number of simultaneously active users in a chat room
+d. The hit rate on a cache, etc
+OPINION: Knowing the load informs on what to measure, how to regulate it. Probably from the architecture.
+How do you define the load parameter from the architecture?
+eg Twitter's Approach 
+
+SCALABILITY - Describing Performance
+
+SCALABILITY - Approaches for coping with load
